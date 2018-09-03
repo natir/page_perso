@@ -62,7 +62,7 @@ pre {
     -webkit-box-shadow: inset -1px 0 0 rgba(0,0,0,0.3);
     -moz-box-shadow: inset -1px 0 0 rgba(0,0,0,0.3);
     box-shadow: inset -1px 0 0 rgba(0,0,0,0.3);
-    background-image: url("/img/background.svg");
+    background-image: url("../../img/background.svg");
 }
 
 .cover-body {
