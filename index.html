@@ -12,22 +12,21 @@
     <link rel="stylesheet" href="css/fonts/fork_awesome/css/fork-awesome.min.css">
     <link rel="stylesheet" href="css/fonts/academicons/css/academicons.min.css">
 
-    <!-- Matomo -->
-    <script type="text/javascript">
-      var _paq = _paq || [];
-      /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-      _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
-      _paq.push(['trackPageView']);
-      _paq.push(['enableLinkTracking']);
-      (function() {
-	var u="//stats.pierre.marijon.fr/";
-	_paq.push(['setTrackerUrl', u+'piwik.php']);
-	_paq.push(['setSiteId', '1']);
-	var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-	g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-      })();
+    <!-- Fathom -->
+    <script>
+    (function(f, a, t, h, o, m){
+	    a[h]=a[h]||function(){
+		    (a[h].q=a[h].q||[]).push(arguments)
+	    };
+	    o=f.createElement('script'),
+	    m=f.getElementsByTagName('script')[0];
+	    o.async=1; o.src=t; o.id='fathom-script';
+	    m.parentNode.insertBefore(o,m)
+    })(document, window, '//stats.pierre.marijon.fr/tracker.js', 'fathom');
+    fathom('set', 'siteId', 'IELPG');
+    fathom('trackPageview');
     </script>
-    <!-- End Matomo Code -->
+    <!-- / Fathom -->
 
 </head>
 <body>
