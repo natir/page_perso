@@ -61,12 +61,16 @@
 	      var chimera = get_z_value(rows, "chimera_nb");
 	      var sequences = get_z_value(rows, "nb_sequence");
 	      var bases = get_z_value(rows, "nb_base");
-	      var m_N50 = get_z_value(rows, "m_N50");
+	      var m_NGA50 = get_z_value(rows, "m_NGA50");
 	      var m_tt_length = get_z_value(rows, "m_tt_length");
 	      var m_nb_contig = get_z_value(rows, "m_nb_contig");
-	      var w_N50 = get_z_value(rows, "w_N50");
+	      var m_indels = get_z_value(rows, "m_indels_per_100kb");
+	      var m_mismatchs = get_z_value(rows, "m_mismatchs_per_100kb");
+	      var w_NGA50 = get_z_value(rows, "w_NGA50");
 	      var w_tt_length = get_z_value(rows, "w_tt_length");
 	      var w_nb_contig = get_z_value(rows, "w_nb_contig");
+	      var w_indels = get_z_value(rows, "w_indels_per_100kb");
+	      var w_mismatchs = get_z_value(rows, "w_mismatchs_per_100kb");
 	      
 	      var layout = {
 		  title: '',
@@ -95,6 +99,7 @@
 			  title: {
 			      text: 'c'
 			  },
+//			  range: [0, 8],
 		      },
 		      zaxis: {
 			  title: {
@@ -104,7 +109,7 @@
 		  },
 	      };
 	      
-	      Plotly.newPlot('graph', [chimera, sequences, bases, m_N50, m_tt_length, m_nb_contig, w_N50, w_tt_length, w_nb_contig], layout);
+	      Plotly.newPlot('graph', [chimera, sequences, bases, m_NGA50, m_tt_length, m_nb_contig, m_indels, m_mismatchs, w_NGA50, w_tt_length, w_nb_contig, w_indels, w_mismatchs], layout);
 	  });
 	</script>
   </body>
