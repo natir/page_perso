@@ -57,7 +57,7 @@
 	      return data;
 	  }
 	  
-	  Plotly.d3.csv('data.csv', function(err, rows){
+	  Plotly.d3.csv('data_ont.csv', function(err, rows){
 	      var chimera = get_z_value(rows, "chimera_nb");
 	      var sequences = get_z_value(rows, "nb_sequence");
 	      var bases = get_z_value(rows, "nb_base");
@@ -94,12 +94,13 @@
 			  title: {
 			      text: 'g',
 			  },
+			  range: [350, 1050],
 		      },
 		      yaxis: {
 			  title: {
 			      text: 'c'
 			  },
-//			  range: [0, 8],
+			  range: [0, 8],
 		      },
 		      zaxis: {
 			  title: {
