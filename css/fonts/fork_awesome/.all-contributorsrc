@@ -906,6 +906,164 @@
       "contributions": [
         "blog"
       ]
+    },
+    {
+      "login": "aviau",
+      "name": "Alexandre Viau",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/2706882?v=4",
+      "profile": "https://alexandreviau.net",
+      "contributions": [
+        "ideas",
+        "platform"
+      ]
+    },
+    {
+      "login": "Xesau",
+      "name": "Xesau",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/7915413?v=4",
+      "profile": "http://xesau.eu/",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "janhohner",
+      "name": "Jan Hohner",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/649895?v=4",
+      "profile": "https://janhohner.de",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "davelab6",
+      "name": "Dave Crossland",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/261579?v=4",
+      "profile": "http://fonts.google.com",
+      "contributions": [
+        "review"
+      ]
+    },
+    {
+      "login": "Berkmann18",
+      "name": "Maximilian Berkmann",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/8260834?v=4",
+      "profile": "http://maxcubing.wordpress.com",
+      "contributions": [
+        "ideas"
+      ]
+    },
+    {
+      "login": "moritzheiber",
+      "name": "Moritz Heiber",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/616813?v=4",
+      "profile": "https://heiber.im",
+      "contributions": [
+        "infra"
+      ]
+    },
+    {
+      "login": "wezm",
+      "name": "Wesley Moore",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/21787?v=4",
+      "profile": "http://www.wezm.net/",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "jerrykan",
+      "name": "John Kristensen",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/377632?v=4",
+      "profile": "http://www.jerrykan.com/",
+      "contributions": [
+        "design"
+      ]
+    },
+    {
+      "login": "melmothx",
+      "name": "Marco",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/130971?v=4",
+      "profile": "https://amusewiki.org",
+      "contributions": [
+        "design"
+      ]
+    },
+    {
+      "login": "jaredcwhite",
+      "name": "Jared White",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/658496?v=4",
+      "profile": "https://whitefusion.io",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "waldyrious",
+      "name": "Waldir Pimenta",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/478237?v=4",
+      "profile": "http://waldyrious.github.io",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "vanokhin",
+      "name": "Vladimir Anokhin",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1898673?v=4",
+      "profile": "https://vanokhin.com/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "maxlath",
+      "name": "Maxime Lathuilière",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1596934?v=4",
+      "profile": "http://maxlath.eu",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "araratthehero",
+      "name": "Ararat",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/8832594?v=4",
+      "profile": "https://github.com/araratthehero",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "wakest",
+      "name": "Liaizon Wakest",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/7890201?v=4",
+      "profile": "http://wake.st",
+      "contributions": [
+        "ideas"
+      ]
+    },
+    {
+      "login": "fedidat",
+      "name": "Ben Fedidat",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1108409?v=4",
+      "profile": "http://fedidat.com/",
+      "contributions": [
+        "blog"
+      ]
+    },
+    {
+      "login": "eidsonator",
+      "name": "Todd Eidson",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/954092?v=4",
+      "profile": "https://www.eidson.info",
+      "contributions": [
+        "ideas",
+        "doc",
+        "bug",
+        "code"
+      ]
     }
-  ]
+  ],
+  "contributorsPerLine": 7
 }

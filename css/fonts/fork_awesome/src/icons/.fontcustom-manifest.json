@@ -1,7 +1,7 @@
 {
   "checksum": {
-    "previous": "702dda021ad3e12337fe38796f683cd726ba02aec2bb0643fcc04919aa9ba146",
-    "current": "702dda021ad3e12337fe38796f683cd726ba02aec2bb0643fcc04919aa9ba146"
+    "previous": "2a7fad9c738e72e6d0eaaebc4f3eb820859ccb29627557b3c601c45932fc3baa",
+    "current": "2a7fad9c738e72e6d0eaaebc4f3eb820859ccb29627557b3c601c45932fc3baa"
   },
   "fonts": [
     "forkawesome/forkawesome.ttf",
@@ -127,6 +127,10 @@
       "codepoint": 62204,
       "source": "svg/archive-org.svg"
     },
+    "archlinux": {
+      "codepoint": 62243,
+      "source": "svg/archlinux.svg"
+    },
     "area-chart": {
       "codepoint": 61950,
       "source": "svg/area-chart.svg"
@@ -210,6 +214,10 @@
     "at": {
       "codepoint": 61946,
       "source": "svg/at.svg"
+    },
+    "att": {
+      "codepoint": 62238,
+      "source": "svg/att.svg"
     },
     "audio-description": {
       "codepoint": 62110,
@@ -307,6 +315,10 @@
       "codepoint": 61925,
       "source": "svg/binoculars.svg"
     },
+    "biometric": {
+      "codepoint": 62251,
+      "source": "svg/biometric.svg"
+    },
     "birthday-cake": {
       "codepoint": 61949,
       "source": "svg/birthday-cake.svg"
@@ -359,6 +371,10 @@
       "codepoint": 61591,
       "source": "svg/bookmark-o.svg"
     },
+    "bootstrap": {
+      "codepoint": 62229,
+      "source": "svg/bootstrap.svg"
+    },
     "braille": {
       "codepoint": 62113,
       "source": "svg/braille.svg"
@@ -398,6 +414,10 @@
     "buysellads": {
       "codepoint": 61965,
       "source": "svg/buysellads.svg"
+    },
+    "c": {
+      "codepoint": 62236,
+      "source": "svg/c.svg"
     },
     "calculator": {
       "codepoint": 61932,
@@ -759,6 +779,10 @@
       "codepoint": 61704,
       "source": "svg/desktop.svg"
     },
+    "dev-to": {
+      "codepoint": 62230,
+      "source": "svg/dev-to.svg"
+    },
     "deviantart": {
       "codepoint": 61885,
       "source": "svg/deviantart.svg"
@@ -774,6 +798,10 @@
     "digg": {
       "codepoint": 61862,
       "source": "svg/digg.svg"
+    },
+    "digitalocean": {
+      "codepoint": 62237,
+      "source": "svg/digitalocean.svg"
     },
     "discord": {
       "codepoint": 62190,
@@ -826,6 +854,10 @@
     "ellipsis-v": {
       "codepoint": 61762,
       "source": "svg/ellipsis-v.svg"
+    },
+    "emby": {
+      "codepoint": 62233,
+      "source": "svg/emby.svg"
     },
     "empire": {
       "codepoint": 61905,
@@ -915,6 +947,10 @@
       "codepoint": 61947,
       "source": "svg/eyedropper.svg"
     },
+    "f-droid": {
+      "codepoint": 62250,
+      "source": "svg/f-droid.svg"
+    },
     "facebook": {
       "codepoint": 61594,
       "source": "svg/facebook.svg"
@@ -970,6 +1006,10 @@
     "file-code-o": {
       "codepoint": 61897,
       "source": "svg/file-code-o.svg"
+    },
+    "file-epub": {
+      "codepoint": 62241,
+      "source": "svg/file-epub.svg"
     },
     "file-excel-o": {
       "codepoint": 61891,
@@ -1159,6 +1199,10 @@
       "codepoint": 61547,
       "source": "svg/gift.svg"
     },
+    "gimp": {
+      "codepoint": 62235,
+      "source": "svg/gimp.svg"
+    },
     "git": {
       "codepoint": 61907,
       "source": "svg/git.svg"
@@ -1166,6 +1210,10 @@
     "git-square": {
       "codepoint": 61906,
       "source": "svg/git-square.svg"
+    },
+    "gitea": {
+      "codepoint": 62239,
+      "source": "svg/gitea.svg"
     },
     "github": {
       "codepoint": 61595,
@@ -1259,6 +1307,10 @@
       "codepoint": 61908,
       "source": "svg/hacker-news.svg"
     },
+    "hackster": {
+      "codepoint": 62246,
+      "source": "svg/hackster.svg"
+    },
     "hand-lizard-o": {
       "codepoint": 62040,
       "source": "svg/hand-lizard-o.svg"
@@ -1306,6 +1358,10 @@
     "handshake-o": {
       "codepoint": 62133,
       "source": "svg/handshake-o.svg"
+    },
+    "hashnode": {
+      "codepoint": 62231,
+      "source": "svg/hashnode.svg"
     },
     "hashtag": {
       "codepoint": 62098,
@@ -1423,6 +1479,10 @@
       "codepoint": 61530,
       "source": "svg/info-circle.svg"
     },
+    "inkscape": {
+      "codepoint": 62226,
+      "source": "svg/inkscape.svg"
+    },
     "inr": {
       "codepoint": 61782,
       "source": "svg/inr.svg"
@@ -1442,6 +1502,10 @@
     "italic": {
       "codepoint": 61491,
       "source": "svg/italic.svg"
+    },
+    "jirafeau": {
+      "codepoint": 62232,
+      "source": "svg/jirafeau.svg"
     },
     "joomla": {
       "codepoint": 61866,
@@ -1667,6 +1731,10 @@
       "codepoint": 62208,
       "source": "svg/mastodon-square.svg"
     },
+    "matrix-org": {
+      "codepoint": 62227,
+      "source": "svg/matrix-org.svg"
+    },
     "maxcdn": {
       "codepoint": 61750,
       "source": "svg/maxcdn.svg"
@@ -1742,6 +1810,10 @@
     "money": {
       "codepoint": 61654,
       "source": "svg/money.svg"
+    },
+    "moon": {
+      "codepoint": 62248,
+      "source": "svg/moon.svg"
     },
     "moon-o": {
       "codepoint": 61830,
@@ -1915,6 +1987,10 @@
       "codepoint": 61651,
       "source": "svg/pinterest-square.svg"
     },
+    "pixelfed": {
+      "codepoint": 62228,
+      "source": "svg/pixelfed.svg"
+    },
     "plane": {
       "codepoint": 61554,
       "source": "svg/plane.svg"
@@ -1930,6 +2006,10 @@
     "play-circle-o": {
       "codepoint": 61469,
       "source": "svg/play-circle-o.svg"
+    },
+    "pleroma": {
+      "codepoint": 62244,
+      "source": "svg/pleroma.svg"
     },
     "plug": {
       "codepoint": 61926,
@@ -1970,6 +2050,10 @@
     "puzzle-piece": {
       "codepoint": 61742,
       "source": "svg/puzzle-piece.svg"
+    },
+    "python": {
+      "codepoint": 62242,
+      "source": "svg/python.svg"
     },
     "qq": {
       "codepoint": 61910,
@@ -2295,6 +2379,10 @@
       "codepoint": 61847,
       "source": "svg/space-shuttle.svg"
     },
+    "spell-check": {
+      "codepoint": 62247,
+      "source": "svg/spell-check.svg"
+    },
     "spinner": {
       "codepoint": 61712,
       "source": "svg/spinner.svg"
@@ -2407,6 +2495,10 @@
       "codepoint": 61682,
       "source": "svg/suitcase.svg"
     },
+    "sun": {
+      "codepoint": 62249,
+      "source": "svg/sun.svg"
+    },
     "sun-o": {
       "codepoint": 61829,
       "source": "svg/sun-o.svg"
@@ -2418,6 +2510,10 @@
     "superscript": {
       "codepoint": 61739,
       "source": "svg/superscript.svg"
+    },
+    "syncthing": {
+      "codepoint": 62225,
+      "source": "svg/syncthing.svg"
     },
     "table": {
       "codepoint": 61646,
@@ -2659,6 +2755,10 @@
       "codepoint": 61758,
       "source": "svg/unlock-alt.svg"
     },
+    "unslpash": {
+      "codepoint": 62245,
+      "source": "svg/unslpash.svg"
+    },
     "upload": {
       "codepoint": 61587,
       "source": "svg/upload.svg"
@@ -2790,6 +2890,10 @@
     "wifi": {
       "codepoint": 61931,
       "source": "svg/wifi.svg"
+    },
+    "wikidata": {
+      "codepoint": 62234,
+      "source": "svg/wikidata.svg"
     },
     "wikipedia-w": {
       "codepoint": 62054,

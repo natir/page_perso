@@ -214,7 +214,7 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       signal
+  - name:       Signal
     id:         signal
     unicode:    f012
     created:    0.4
@@ -224,7 +224,7 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       cog
+  - name:       Cog
     id:         cog
     unicode:    f013
     created:    0.4
@@ -351,6 +351,8 @@ icons:
     created:    0.4
     filter:
       - reload
+      - sync
+    aliases:
       - sync
     categories:
       - Web Application Icons
@@ -632,6 +634,8 @@ icons:
       - film
       - movie
       - record
+    aliases:
+      - video
     categories:
       - Web Application Icons
 
@@ -1705,8 +1709,8 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       bell
-    id:         bell
+  - name:       Bell Outlined
+    id:         bell-o
     unicode:    f0f3
     created:    0.4
     filter:
@@ -2168,6 +2172,8 @@ icons:
     id:         google-plus
     unicode:    f0d5
     created:    0.4
+    aliases:
+      - google-plus-g
     filter:
       - social network
     categories:
@@ -2491,8 +2497,8 @@ icons:
     categories:
       - Web Application Icons
 
-  - name:       Bell Outlined
-    id:         bell-o
+  - name:       Bell
+    id:         bell
     unicode:    f0a2
     created:    0.4
     filter:
@@ -2527,6 +2533,8 @@ icons:
       - knife
       - dinner
       - eat
+    aliases:
+      - utensils
     categories:
       - Web Application Icons
 
@@ -3017,6 +3025,7 @@ icons:
       - rebase
       - version
       - merge
+      - code-branch
     categories:
       - Web Application Icons
 
@@ -3482,6 +3491,8 @@ icons:
     id:         gbp
     unicode:    f154
     created:    0.4
+    aliases:
+      - pound
     categories:
       - Currency Icons
 
@@ -3574,6 +3585,8 @@ icons:
     id:         sort-alpha-asc
     unicode:    f15d
     created:    0.4
+    aliases:
+      - sort-alpha-down
     categories:
       - Web Application Icons
 
@@ -3581,6 +3594,8 @@ icons:
     id:         sort-alpha-desc
     unicode:    f15e
     created:    0.4
+    aliases:
+      - sort-alpha-up
     categories:
       - Web Application Icons
 
@@ -3589,6 +3604,8 @@ icons:
     id:         sort-amount-asc
     unicode:    f160
     created:    0.4
+    aliases:
+      - sort-amount-down
     categories:
       - Web Application Icons
 
@@ -3596,6 +3613,8 @@ icons:
     id:         sort-amount-desc
     unicode:    f161
     created:    0.4
+    aliases:
+      - sort-amount-up
     categories:
       - Web Application Icons
 
@@ -3605,6 +3624,8 @@ icons:
     created:    0.4
     filter:
       - numbers
+    aliases:
+      - sort-numeric-down
     categories:
       - Web Application Icons
 
@@ -3614,6 +3635,8 @@ icons:
     created:    0.4
     filter:
       - numbers
+    aliases:
+      - sort-numeric-up
     categories:
       - Web Application Icons
 
@@ -3913,6 +3936,7 @@ icons:
       - night
       - darker
       - contrast
+      - crescent
     categories:
       - Web Application Icons
 
@@ -4260,6 +4284,8 @@ icons:
     id:         spoon
     unicode:    f1b1
     created:    0.4
+    aliases:
+      - utensil-spoon
     categories:
       - Web Application Icons
 
@@ -4478,7 +4504,7 @@ icons:
     unicode:    f1cd
     created:    0.4
     aliases:
-      - life-bouy # TODO: Deprecated - remove in 5.0.0
+      - life-bouy
       - life-buoy
       - life-saver
       - support
@@ -4599,6 +4625,8 @@ icons:
     unicode:    f1dc
     created:    0.4
     filter:
+      - heading
+    aliases:
       - heading
     categories:
       - Text Editor Icons
@@ -4960,6 +4988,8 @@ icons:
     id:         cc
     unicode:    f20a
     created:    0.4
+    aliases:
+      - closed-captioning
     categories:
       - Web Application Icons
       - Accessibility Icons
@@ -5081,6 +5111,8 @@ icons:
     filter:
       - gem
       - gemstone
+    aliases:
+      - gem
     categories:
       - Web Application Icons
 
@@ -5864,6 +5896,8 @@ icons:
     id:         vimeo
     unicode:    f27d
     created:    0.4
+    aliases:
+      - vimeo-v
     categories:
       - Brand Icons
 
@@ -6128,6 +6162,8 @@ icons:
     created:    0.4
     filter:
       - telephone
+    aliases:
+      - phone-volume
     categories:
       - Web Application Icons
       - Accessibility Icons
@@ -6659,6 +6695,7 @@ icons:
     url:        github.com/Chocobozzz/PeerTube
     filter:
       - video
+      - social-network
       - federation
     categories:
       - Web Application Icons
@@ -7035,3 +7072,237 @@ icons:
     url:        joplin.cozic.net
     categories:
       - Brand Icons
+
+  - name:       Syncthing
+    id:         syncthing
+    unicode:    f311
+    created:    1.1
+    url:        syncthing.net
+    categories:
+      - Brand Icons
+
+  - name:       Inkscape
+    id:         inkscape
+    unicode:    f312
+    created:    1.1
+    url:        inkscape.org
+    categories:
+      - Brand Icons
+
+  - name:       Matrix.org
+    id:         matrix-org
+    unicode:    f313
+    created:    1.1
+    url:        matrix.org
+    filter:
+      - chat
+      - federation
+      - message
+    categories:
+      - Brand Icons
+
+  - name:       Pixelfed
+    id:         pixelfed
+    unicode:    f314
+    created:    1.1
+    url:        pixelfed.social
+    filter:
+      - social-network
+      - federation
+      - photo
+    categories:
+      - Brand Icons
+
+  - name:       Bootstrap
+    id:         bootstrap
+    unicode:    f315
+    created:    1.1
+    url:        getbootstrap.com
+    categories:
+      - Brand Icons
+
+  - name:       Dev.to
+    id:         dev-to
+    unicode:    f316
+    created:    1.1
+    url:        dev.to
+    categories:
+      - Brand Icons
+
+  - name:       Hashnode
+    id:         hashnode
+    unicode:    f317
+    created:    1.1
+    url:        hashnode.com
+    categories:
+      - Brand Icons
+
+  - name:       Jirafeau
+    id:         jirafeau
+    unicode:    f318
+    created:    1.1
+    url:        jirafeau.net
+    categories:
+      - Brand Icons
+
+  - name:       Emby
+    id:         emby
+    unicode:    f319
+    created:    1.1
+    url:        emby.media
+    categories:
+      - Brand Icons
+
+  - name:       Wikidata
+    id:         wikidata
+    unicode:    f31a
+    created:    1.1
+    url:        wikidata.org
+    categories:
+      - Brand Icons
+
+  - name:       Gimp
+    id:         gimp
+    unicode:    f31b
+    created:    1.1
+    url:        gimp.org
+    categories:
+      - Brand Icons
+
+  - name:       C
+    id:         c
+    unicode:    f31c
+    created:    1.1
+    categories:
+      - Brand Icons
+
+  - name:       DigitalOcean
+    id:         digitalocean
+    unicode:    f31d
+    created:    1.1
+    url:        digitalocean.com
+    categories:
+      - Brand Icons
+
+  - name:       AT&T
+    id:         att
+    unicode:    f31e
+    created:    1.1
+    url:        att.com
+    categories:
+      - Brand Icons
+
+  - name:       Gitea
+    id:         gitea
+    unicode:    f31f
+    created:    1.1
+    url:        gitea.io
+    categories:
+      - Brand Icons
+
+  - name:       EPUB
+    id:         file-epub
+    unicode:    f321
+    created:    1.1
+    categories:
+      - Web Application Icons
+      - File Type Icons
+
+  - name:       Python
+    id:         python
+    unicode:    f322
+    created:    1.1
+    url:        python.org
+    categories:
+      - Brand Icons
+
+  - name:       Archlinux
+    id:         archlinux
+    unicode:    f323
+    created:    1.1
+    url:        archlinux.org
+    categories:
+      - Brand Icons
+
+  - name:       Pleroma
+    id:         pleroma
+    unicode:    f324
+    created:    1.1
+    url:        pleroma.social
+    filter:
+      - social-network
+      - federation
+    categories:
+      - Brand Icons
+      - Web Application Icons
+
+  - name:       Unsplash
+    id:         unsplash
+    unicode:    f325
+    created:    1.1
+    url:        unsplash.com
+    filter:
+      - photo
+    categories:
+      - Brand Icons
+
+  - name:       Hackster
+    id:         hackster
+    unicode:    f326
+    created:    1.1
+    url:        hackster.io
+    categories:
+      - Brand Icons
+
+  - name:       Spell check
+    id:         spell-check
+    unicode:    f327
+    created:    1.1
+    filter:
+      - checkmark
+      - spelling
+    categories:
+      - Web Application Icons
+
+  - name:       Moon
+    id:         moon
+    unicode:    f328
+    created:    1.1
+    filter:
+      - night
+      - darker
+      - contrast
+      - crescent
+    categories:
+      - Web Application Icons
+
+  - name:       Sun
+    id:         sun
+    unicode:    f329
+    created:    1.1
+    filter:
+      - weather
+      - contrast
+      - lighter
+      - brighten
+      - day
+    categories:
+      - Web Application Icons
+
+  - name:       F-droid
+    id:         f-droid
+    unicode:    f32a
+    created:    1.1
+    url:        f-droid.org
+    categories:
+      - Brand Icons
+
+  - name:       biometric
+    id:         biometric
+    unicode:    f32b
+    created:    1.1
+    filter:
+      - biometric
+      - passport
+    categories:
+      - Web Application Icons
