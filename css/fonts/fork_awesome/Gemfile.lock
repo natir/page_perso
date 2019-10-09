@@ -9,7 +9,7 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
     eventmachine (1.2.7)
-    ffi (1.9.25)
+    ffi (1.11.1)
     fontcustom (2.0.0)
       json (~> 1.4)
       listen (>= 1.0, < 4.0)
