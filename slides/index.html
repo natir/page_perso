@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Pierre Marijon slides</title>
+
+    <link rel="stylesheet" href="revealjs/css/reset.css">
+    <link rel="stylesheet" href="revealjs/css/reveal.css">
+    <link rel="stylesheet" href="revealjs/css/theme/black.css">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="revealjs/lib/css/monokai.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? 'revealjs/css/print/pdf.css' : 'revealjs/css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+	<section data-markdown="index.md" data-charset="utf-8" data-separator="^\r?\n---\r?\n$" data-separator-vertical="^\r?\n----\r?\n$"> </section>
+      </div>
+    </div>
+
+    <script>
+      function addCss(ref) {
+	  var link = document.createElement( 'link' );
+	  link.rel = 'stylesheet';
+	  link.type = 'text/css';
+	  link.href = ref;
+	  document.getElementsByTagName('head')[0].appendChild(link);
+      }
+      
+      var urlParams = new URLSearchParams(window.location.search);
+      var name = urlParams.has('name') ? urlParams.get('name') : "index"
+      name = name.concat("/", name)
+      document.getElementsByTagName('section')[0].setAttribute("data-markdown", name.concat(".md"))
+      
+      fetch(name.concat(".json")).then(function(response) {
+	  return response.json();
+      }).then(function(json) {
+	  return json;
+      }).catch(function(err) {
+	  return {
+	      theme: "Pierre Marijon slides",
+	      theme: "black.css",
+	      highlighting_theme: "monokai.css",
+	  };
+      }).then(function(param) {
+	  document.title = param.title;
+	  addCss("revealjs/css/theme/".concat(param.theme));
+	  addCss("revealjs/lib/css/".concat(param.highlighting_theme));
+      });
+    </script>
+    <script src="revealjs/js/reveal.js"></script>
+
+    <script>
+      // More info about config & dependencies:
+      // - https://github.com/hakimel/reveal.js#configuration
+      // - https://github.com/hakimel/reveal.js#dependencies
+      Reveal.initialize({
+	  width: "100%",
+	  height: "100%",
+	  margin: 0,
+	  minScale: 1,
+	  maxScale: 1,
+	  dependencies: [
+	      { src: 'revealjs/plugin/markdown/marked.js' },
+	      { src: 'revealjs/plugin/markdown/markdown.js' },
+	      { src: 'revealjs/plugin/math/math.js' },
+	      { src: 'revealjs/plugin/notes/notes.js', async: true },
+	      { src: 'revealjs/plugin/highlight/highlight.js', async: true }
+	  ]
+      });
+    </script>
+  </body>
+</html>
