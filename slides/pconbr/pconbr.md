@@ -245,6 +245,8 @@ Synthetic dataset [Badread](https://github.com/rrwick/Badread) on *E. coli* CFT0
 
 ## What remains to be done
 
+![](pconbr/final_meme.png)
+
 - automaticly detect good abundance value (maybe same stuff for k)
 - test multiple iteration of pconbr (or only br) with differente value of k
 - test on 90 % identity real dataset
