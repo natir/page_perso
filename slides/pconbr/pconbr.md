@@ -20,10 +20,10 @@ Pcon perform full ram kmer counting
 
 ## With some limitation
 
-- count range between 0 to $2^n$ $n \in (4, 8, 16)$
+- counts range between 0 to $2^n$ $n \in (4, 8, 16)$
 - k must be odd
 - memory usage grow exponentialy with k: 
-	$\frac{2^{2k - 1}}{\frac{8}{n}}$ bytes
+	$2^{2k - 1} \times \frac{n}{8}$ bytes
 - count only canonical kmer
 ```python
 def get_cannnonical(kmer):
@@ -33,7 +33,7 @@ def get_cannnonical(kmer):
 	else:
 		return reverse
 ```
-- other caracter than A C T G was convert silently in A C T or G
+- other characters than A C T G were converted silently to A,C,T, or G
 
 ----
 
@@ -51,7 +51,7 @@ Binary conversion of nucleotide:
 
 ----
 
-### How it's work
+### How it work
 
 - Complement: `complement kmer = kmer ^ 0b010101…`
 - Reverse: a modified lookup table reverse bit algorithm
@@ -143,9 +143,9 @@ k: 5
 
 We want a new data structure with some property:
 
-1. successive kmer was store near in memory
-3. good acces time (O(1) or not too fare)
-3. does not (too much) increase the memory costs
+1. successive kmers stored near each other in memory
+3. good acces time (O(1) or not too far)
+3. does not increase the memory cost (too much)
 
 
 Note:
@@ -196,7 +196,7 @@ Three parameter:
 
 - k: size of kmer
 - a: minimal abundance of kmer to consider is a correct kmer
-- s: number of kmer need to be correct after a modification to validate it
+- s: number of kmer required to validate correction
 
 ---
 
@@ -245,10 +245,10 @@ Synthetic dataset [Badread](https://github.com/rrwick/Badread) on *E. coli* CFT0
 
 ## What remains to be done
 
-![](pconbr/final_meme.png)
-
-- automaticly detect good abundance value (maybe same stuff for k)
-- test multiple iteration of pconbr (or only br) with differente value of k
+- automaticly detect good abundance value (maybe same for k)
+- test multiple iteration of pconbr (or only br) with differente values of k
 - test on 90 % identity real dataset
 - test hybrid correction
+
+![](pconbr/final_meme.png)
 
