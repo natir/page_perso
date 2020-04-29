@@ -21,6 +21,7 @@
       link.href = window.location.search.match( /print-pdf/gi ) ? 'revealjs/css/print/pdf.css' : 'revealjs/css/print/paper.css';
       document.getElementsByTagName( 'head' )[0].appendChild( link );
     </script>
+
   </head>
   <body>
     <div class="reveal">
@@ -57,6 +58,7 @@
 	  document.title = param.title;
 	  addCss("revealjs/css/theme/".concat(param.theme));
 	  addCss("revealjs/lib/css/".concat(param.highlighting_theme));
+	  addCss(name.concat(".css"))
       });
     </script>
     <script src="revealjs/js/reveal.js"></script>
