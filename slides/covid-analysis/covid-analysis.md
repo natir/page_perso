@@ -1,6 +1,6 @@
 # COVID Analysis
 
-More precisly correction of covid19 nanopore read and pangenome generation
+More precisly correction of covid19 nanopore read and pangenome generation for variant calling
 
 ---
 
@@ -14,13 +14,13 @@ Detect variant in covid 19 sequence
 
 Multiplexed nanopore sequencing of reverse transcript covid sample:
 
-- Error rate: ~9%
+- Error rate: ~ 6-9 %
 - Length: ~600 bp
 - Potentialy *heterozygote*
 
 ----
 
-## Basic method
+## Classic method
 
 - medaka
 - nanopolish
@@ -33,19 +33,15 @@ Multiplexed nanopore sequencing of reverse transcript covid sample:
 
 ## Trouble
 
-- Inconsistency between the 2 caller variants
-- Heterozygosity
+- Inconsistency between variants caller
+- *Heterozygosity*
 - High error rate 
-- Variable coverage 
 
 ---
 
 ## Read correction
 
-We need a correction method to:
-- Keep heterozygosity
-- High error rate
-- Support coverage drop
+We need a correction method that preserves heterozygosity
 
 ---
 
@@ -64,12 +60,6 @@ We need a correction method to:
 
 ----
 
-## Parameter selection 
-
-![kmer spectrum](covid-analysis/k19_dbg.svg)
-
-----
-
 ## Results
 
 ![kmer spectrum](covid-analysis/kmer_spectrum_correct.svg)
@@ -78,22 +68,22 @@ We need a correction method to:
 
 ## Results
 
-Error rate: 
+| | Error rate|
+|:- | -:|
+| raw | 6.25% |
+| k 11 | 0.54% |
+| k 13 | 0.367% |
+| k 15 | 0.361% |
+| k 17 | 0.359% |
+| k 19 | 0.364% |
 
-- raw: 6.25%
-- k 11: 0.54%
-- k 13: 0.367%
-- k 15: 0.361%
-- k 17: 0.359%
-- k 19: 0.364%
-
-Theorical error rate for 20 base variant: 0.05%
+For 20 variants error rate must be around 0.05%
 
 ---
 
-## Build Pangenome 
+## Build *Pangenome* 
 
-Generate a DBG at k = 19 with all kmers with abundance upper than 50 and kmers of reference
+Generate a DBG at k = 21 with all kmers with abundance upper than 50 and kmers of reference
 
 ### Graphviz demo
 
@@ -104,7 +94,12 @@ Generate a DBG at k = 19 with all kmers with abundance upper than 50 and kmers o
 - Remove tips
 - Remove homopolymer error
 - Remove low covered node
+- Convert DBG in real genome graph
 - Your crazy idea I miss
+
+<p></br></p>
+
+<p></br></p>
 
 We didn't perform any of this cleaning, generate a pangenome isn't our target.
 
@@ -112,11 +107,11 @@ We didn't perform any of this cleaning, generate a pangenome isn't our target.
 
 ## Call variant
 
-```
+```no
 Map raw reads of one dataset on pangenome
 Concatenate reads they map on same node in a path
 
-Map reference of pangenome
+Map reference on pangenome
 
 For each path didn't follow the reference:
 	Generate sequence of this path
@@ -134,7 +129,7 @@ CAAAGCCTCATTATTATTCTTACAAAGTTTATACACCCATTACTTTATGATGCCAACTATTTTCTTTGCTGGCA
 CAAAGCCTCATTATTATTCTTACAAAGTTTATACGGAACGGCATTTCC-AGGCCAACTATTTTCTTTGCTGGCA
 ```
 
-Where is the variant ?
+I need to find a way to transform this alignment in variant
 
 ---
 
@@ -145,3 +140,5 @@ Where is the variant ?
 - How too call variant after pangenome graph mapping
 
 - How too compare variants set from different caller
+
+- Pangenome idea suitable for something other than a virus? *Huma…*
