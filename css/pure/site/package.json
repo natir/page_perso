@@ -1,0 +1,41 @@
+{
+  "name": "pure",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "docusaurus build",
+    "deploy": "docusaurus deploy",
+    "predeploy": "npm run pure && npm run build",
+    "prestart": "npm run pure",
+    "pure": "cp -rf ./node_modules/purecss/build/ ./static/css/pure/",
+    "start": "docusaurus start",
+    "swizzle": "docusaurus swizzle"
+  },
+  "dependencies": {
+    "@docusaurus/core": "^2.0.0-beta.17",
+    "@docusaurus/plugin-content-pages": "^2.0.0-beta.17",
+    "@docusaurus/plugin-google-analytics": "^2.0.0-beta.17",
+    "@docusaurus/theme-classic": "^2.0.0-beta.17",
+    "classnames": "^2.2.6",
+    "common-tags": "^1.8.2",
+    "gzip-size": "^6.0.0",
+    "js-beautify": "^1.11.0",
+    "purecss": "^2.0.6",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-syntax-highlighter": "^15.5.0",
+    "webpack": "^5.70.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
