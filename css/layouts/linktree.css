@@ -1,0 +1,40 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+h3 {
+    text-align: center;
+    color: #ffffff;
+}
+
+
+.layout {
+  justify-content: center;
+  align-items: center;
+
+  background-image: url("/img/background-rotate.svg");
+  background-size: cover;
+  background-color: #192f13;
+
+}
+
+.button {
+    display: block;
+    max-width: 400px;
+    margin: 0 auto 15px auto;
+    font-size: 200%;
+    transition: all 200ms ease-in-out;
+    background-color: #68921eff;
+    color: #ffffff;
+}
+
+.avatar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1%;
+    border-radius: 50%;
+    max-width: 80%;
+}
